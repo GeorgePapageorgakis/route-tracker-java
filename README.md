@@ -3,12 +3,8 @@ A java Route Tracker (records a route and the statistics on google map with an o
 
 For Android version 2.+ developed in Eclipse IDE with android SDK, using android GPS technology, Google Maps API, Facebook API and SQLite database.
 
-You have to replace the following developing keys with your own registered keys:
+#####You have to replace the following developing keys with your own registered keys:
 
-in RouteTrackerGui.java:
-
-  *private static final String FACEBOOK_APPID = "xxxxxxxxxxxxxx";
+in RouteTrackerGui.java: private static final String FACEBOOK_APPID = "xxxxxxxxxxxxxx";
   
-In strings.xml:
-
-  *<string name="google_maps_api_key">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+In strings.xml:  <string name="google_maps_api_key">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
