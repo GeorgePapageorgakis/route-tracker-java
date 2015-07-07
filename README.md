@@ -7,8 +7,8 @@ You have to replace the following developing keys with your own registered keys:
 
 in RouteTrackerGui.java:
 
-  private static final String FACEBOOK_APPID = "xxxxxxxxxxxxxx";
+  *private static final String FACEBOOK_APPID = "xxxxxxxxxxxxxx";
   
-In strings.xml
+In strings.xml:
 
-  <string name="google_maps_api_key">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+  *<string name="google_maps_api_key">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
