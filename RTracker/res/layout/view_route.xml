@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:layout_width="match_parent" 
+   android:layout_height="wrap_content">
+
+<ScrollView 
+    android:id="@+id/routeInfo"
+   android:layout_width="match_parent" 
+   android:layout_height="wrap_content" android:layout_weight="1">
+   <TableLayout android:layout_width="match_parent" 
+      android:layout_height="wrap_content"
+      android:stretchColumns="1" android:layout_margin="5dp">
+      <TableRow android:id="@+id/dateTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/dateLabelTextView" 
+            style="@style/RouteLabelTextView"
+            android:text="@string/label_date"></TextView>
+         <TextView android:id="@+id/dateTextView"
+            style="@style/RouteTextView"></TextView>
+      </TableRow>
+      <TableRow android:id="@+id/timeTableRow"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/timeLabelTextView" 
+            style="@style/RouteLabelTextView"
+            android:text="@string/label_time"></TextView>
+         <TextView android:id="@+id/timeTextView" 
+            style="@style/RouteTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/distanceTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/diastanceLabelTextView" 
+            style="@style/RouteLabelTextView"
+            android:text="@string/label_distance"></TextView>
+         <TextView android:id="@+id/distanceTextView"
+            style="@style/RouteTextView"></TextView>
+      </TableRow>
+
+       <TableRow android:id="@+id/speedTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/speedLabelTextView" 
+            style="@style/RouteLabelTextView"
+            android:text="@string/label_speed"></TextView>
+         <TextView android:id="@+id/speedTextView"
+            style="@style/RouteTextView"></TextView>
+      </TableRow>
+
+
+      <TableRow android:id="@+id/caloriesTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/caloriesLabelTextView" 
+            style="@style/RouteLabelTextView"
+            android:text="@string/label_calories"></TextView>
+         <TextView android:id="@+id/caloriesTextView"
+            style="@style/RouteTextView"></TextView>
+      </TableRow>
+      
+      
+      
+    
+   </TableLayout>
+</ScrollView>
+<Button android:id="@+id/viewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/routeInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/mapButton"
+       
+        >
+    
+</Button>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   package="com.deitel.routetracker" android:versionCode="1"
+   android:versionName="1.0">
+   <application android:icon="@drawable/icon" 
+      android:label="@string/app_name" android:debuggable="true">
+      <uses-library android:name="com.google.android.maps" />
+      <activity android:name="gr.uoa.rtracker.gui.AppGui" 
+         android:label="@string/app_name"
+         android:theme="@android:style/Theme.Black.NoTitleBar">
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+      </activity>
+      <activity 
+            android:name="gr.uoa.rtracker.tracker.RouteTrackerGui"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+         	android:screenOrientation="portrait">
+      </activity>
+      <activity 
+            android:name="gr.uoa.rtracker.history.RouteHistoryGui"
+            android:label="@string/app_name">
+      </activity>
+      <activity 
+            android:name="gr.uoa.rtracker.gui.About"
+            android:label="@string/app_name">
+      </activity>
+      <activity 
+            android:name="gr.uoa.rtracker.gui.Prefs"
+            android:label="@string/app_name">
+      </activity>
+      <activity 
+             android:name="gr.uoa.rtracker.history.ViewRoute"
+             android:label="@string/app_name">
+      </activity>
+      <activity 
+             android:name="gr.uoa.rtracker.overlay.ViewMap"
+             android:label="@string/app_name"
+             android:theme="@android:style/Theme.Black.NoTitleBar"
+         	android:screenOrientation="portrait">
+      </activity>
+
+   </application>
+   <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="10"/>
+
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission 
+      android:name="android.permission.ACCESS_FINE_LOCATION" />
+   <uses-permission 
+      android:name="android.permission.ACCESS_MOCK_LOCATION" />
+   <uses-permission android:name="android.permission.WAKE_LOCK" />
+</manifest> 
+

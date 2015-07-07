@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/mainLayout"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+   <TextView android:id="@+id/speedTextView" 
+      android:textSize="25dp"
+      android:textStyle="bold"
+      android:shadowColor="#FFFFFF"
+      android:shadowRadius="5"
+      android:shadowDx="10"
+      android:shadowDy="10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:layout_gravity="top|center"></TextView>
+   <Button android:id="@+id/shareButton" 
+      android:background="@drawable/button_black"
+	  style="@style/ButtonTextSmall" 
+      android:text="@string/share_label"
+      android:layout_gravity="bottom|left"></Button>
+
+   <ToggleButton
+       android:id="@+id/trackingToggleButton"
+       style="@style/ButtonTextSmall"
+       android:layout_width="168dp"
+       android:layout_gravity="bottom|center"
+       android:background="@drawable/button_black"
+       android:textOff="@string/button_start_tracking"
+       android:textOn="@string/button_stop_tracking" >
+	</ToggleButton>
+   <ToggleButton android:id="@+id/pauseToggleButton" 
+      android:background="@drawable/button_black"
+	  style="@style/ButtonTextSmall" 
+      android:textOn="@string/on_pause_tracking"
+      android:textOff="@string/pause_tracking"
+      android:layout_gravity="bottom|right"></ToggleButton>
+</FrameLayout>

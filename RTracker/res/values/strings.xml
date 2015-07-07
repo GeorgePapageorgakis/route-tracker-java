@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">RTracker</string>
+   <string name="google_maps_api_key">0XDzzyDwqseFtjiKEyaX5rv4GEybmKduGNyMSKQ</string>
+   <string name="button_start_tracking">Start</string>
+   <string name="button_stop_tracking">Stop</string>
+   <string name="button_reset">Reset</string>
+   <string name="button_ok">OK</string>
+   <string name="menuitem_hybrid">Hybrid</string>
+   <string name="menuitem_map">Map</string>
+   <string name="menuitem_satellite">Satellite</string>
+   <string name="results">Distance and Average Speed</string>
+   <string name="results_format">Total Time: %1$s\nDistance: %2$.1fKM\nAverage speed: %3$.1fKPH\nCalories: %4$d\nXP Points: %5$d</string>
+   <string name="end_route_fb_msg_format">Distance: %1$.1fKM\nAverage speed: %3$.1fKPH</string>
+   <string name="time_format"> %1$dHR %2$dMIN %3$dSEC</string>
+   <string name="toast_signal_acquired">GPS signal acquired</string>
+   <string name="toast_signal_lost">GPS signal lost</string>
+   <string name="pause_tracking">Pause</string>
+   <string name="on_pause_tracking">Resume</string>
+   <string name="label_time">Total Time:</string>
+    <string name="label_distance">Total Distance:</string>
+    <string name="label_date">Date:</string>
+    <string name="label_fuel">Fuel Saved:</string>
+    <string name="label_calories">Calories:</string>
+    <string name="label_speed">Average Speed:</string>
+    <string name="label_altitude">Altitude:</string>
+    <string name="label_bearing">Bearing:</string>
+    
+ 	<string name="main_title">BTracker</string>
+ 	<string name="history_label">History</string>
+ 	<string name="schedule_label">Achievements</string>
+ 	<string name="new_route_label">New Route</string>
+ 	<string name="share_label">Share</string>
+ 	
+ 	<string name="settings_label">Settings</string>
+	<string name="settings_title">4Bike settings</string>
+	<string name="settings_shortcut">s</string>
+	<string name="facebook_title">Facebook</string>
+	<string name="facebook_title_summary">Post on facebook profile</string>
+	
+ 	
+ 	<string name="about_label">Challenges</string>
+ 	<string name="about_title">About 4Bike</string>
+ 	<string name="about_text">\ 4Bike is an application for bikers who 
+ 	    want to trace or keep history of their daily bicycle routes.
+ 	    This application was developed by students of UoA.</string>
+ 	<string name="exit_label">Exit</string>
+		
+	<string name="new_route_title">Route Mode</string>
+	<string name="bike_label">Bicycle</string>
+	<string name="walk_label">On foot</string>
+	<string name="item_delete">Delete</string>
+    <string name="mapButton">View Map</string>
+    
+    <string name="totalkm">Total distance</string>
+    <string name="total_time">Total time</string>
+    <string name="max_speed">Max Speed</string>
+    <string name="total_cal">Total Calories</string>
+</resources> 

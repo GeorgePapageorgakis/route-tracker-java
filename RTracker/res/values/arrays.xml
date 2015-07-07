@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="mode">
+		<item>@string/bike_label</item>
+		<item>@string/walk_label</item>
+	</array>
+</resources>
