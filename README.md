@@ -7,4 +7,4 @@ For Android version 2.+ developed in Eclipse IDE with android SDK, using android
 
 in RouteTrackerGui.java: private static final String FACEBOOK_APPID = "xxxxxxxxxxxxxx";
   
-In strings.xml:  <string name="google_maps_api_key">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+In strings.xml:  <string name="google_maps_api_key">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
