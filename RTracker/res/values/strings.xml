@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="app_name">RTracker</string>
-   <string name="google_maps_api_key">0XDzzyDwqseFtjiKEyaX5rv4GEybmKduGNyMSKQ</string>
+   <string name="google_maps_api_key">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
    <string name="button_start_tracking">Start</string>
    <string name="button_stop_tracking">Stop</string>
    <string name="button_reset">Reset</string>
