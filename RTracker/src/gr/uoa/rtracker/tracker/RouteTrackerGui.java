@@ -48,21 +48,21 @@ import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
 
 public class RouteTrackerGui extends MapActivity {
-	private LocationManager locationManager;// gives location data
-	private MapView mapView; 				// displays a Google map
-	private MapController mapController; 	// manages map pan/zoom
+	private LocationManager locationManager;	// gives location data
+	private MapView mapView; 			// displays a Google map
+	private MapController mapController; 		// manages map pan/zoom
 	private Location previousLocation; 		// previous reported location
 	private RouteOverlay routeOverlay; 		// Overlay that shows route on map
 	private long distanceTraveled; 			// total distance the user traveled
-	private BearingFrameLayout bearingFrameLayout; // rotates the MapView
-	private boolean tracking; 				// whether app is currently tracking
-	private long startTime; 				// time (in milliseconds) when tracking starts
+	private BearingFrameLayout bearingFrameLayout; 	// rotates the MapView
+	private boolean tracking; 			// whether app is currently tracking
+	private long startTime; 			// time (in milliseconds) when tracking starts
 	private double totalHours;
 	private double speedKM;
 	private long milliseconds;
 	private List<Location> locations;
-	private PowerManager.WakeLock wakeLock; // used to prevent device sleep
-	private boolean gpsFix; 				// whether we have a GPS fix for accurate data
+	private PowerManager.WakeLock wakeLock; 	// used to prevent device sleep
+	private boolean gpsFix; 			// whether we have a GPS fix for accurate data
 	private ToggleButton trackingToggleButton;
 	private ToggleButton pauseToggleButton;
 	private Button shareButton;
@@ -70,9 +70,9 @@ public class RouteTrackerGui extends MapActivity {
 
 	private static final double MILLISECONDS_PER_HOUR = 1000 * 60 * 60;
 	private static final double MILES_PER_KILOMETER = 0.621371192;
-	private static final int MAP_ZOOM = 18; // Google Maps supports 1-21
+	private static final int MAP_ZOOM = 18; 	// Google Maps supports 1-21
 
-	private static final String FACEBOOK_APPID = "405267336182237";	//change this with your appid
+	private static final String FACEBOOK_APPID = "XXXXXXXXXXXXXXX";	//change this with your appid
 	private static final String FACEBOOK_PERMISSION = "publish_stream";
 	private static final String TAG = "BTracker";
 	private static final String START_MSG = "I am cycling using BTracker";
